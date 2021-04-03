@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+	<head>
+	    <link rel ="icon" href="http://cdn.onlinewebfonts.com/svg/img_550901.png">
+	    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel ="stylesheet" tipe ="text/class" href="normalize.css" >
+		<link rel ="stylesheet" tipe ="text/class" href="estilos.css" > 
+		<link rel ="preconnect" href="https://fonts.gstatic.com">
+		<title>Utilidades</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		
+	</head>
+		<header>
+		
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<a class="navbar-brand" href="#">Computer Store</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="Utilidades.html">Utilidades</a></li>
+						<li class="nav-item"><a class="nav-link" href="Inventario.html">Inventario</a></li>    
+						<li class="nav-item"><a class="nav-link" href="Administrador.html">Administrador</a></li>  
+					</ul>
+				</div>  
+			</nav>
+		
+		</header>
+		
+		<body>
+		
+		<div class="clase1">
+		<ul class="nav nav-tabs" ">
+			<li class="nav-item"><a class="nav-link active" href="Utilidades.html">Calculadora</a></li>
+			<li class="nav-item"><a class="nav-link active" href="equivalencia.html">Equivalencia</a></li>
+		</ul>
+		</div>
+		
+		<h1 class="titulo1">Equivalencia</h1>
+ 
+		
+		<div  class="contenedor_flex">
+
+			<form name="f2" action="Utilidades.html" method="POST" class="form">
+	
+				<div class="form_seleccion">
+				<label class="label1">Convertir de:</label>
+					<select type="select" required class="form-input"  name="s1" >
+					<option class="form-input" value=""></option>
+					<option class="form-input" value="0">byte</option>
+					<option class="form-input" value="1">kilobyte</option>
+					<option class="form-input" value="2">megabyte</option>
+					<option class="form-input" value="3">gigabyte</option>
+					<option class="form-input" value="4">terabyte</option>
+					
+					</select>
+				</div>
+		
+				<div class="form_seleccion">
+				<label class="label1">Convertir a:</label>
+			 		<select type="select" required class="form-input" name="s2" >
+						<option class="form-input" value=""></option>
+						<option class="form-input" value="5">byte</option>
+						<option class="form-input" value="6">kilobyte</option>
+						<option class="form-input" value="7">megabyte</option>
+						<option class="form-input" value="8">gigabyte</option>
+						<option class="form-input" value="9">terabyte</option>
+					
+					</select>
+				</div>
+	
+				<label class="label1">Cantidad:</label>
+				<div class="form_seleccion">
+					<input type="number" required class="form-input" placeholder="Ingrese un valor" name="cantidad">
+				</div>
+			
+				<div class="form_seleccion">
+					<input type="button"  name="Calc" onclick="convertir()" VALUE="CALCULAR" class="form-button"></input>
+				</div>
+
+				
+		
+				<div class="form_seleccion">
+				<b></b><input type="number" class="form-input"  name="res" readonly>
+				</div>				
+
+	
+			</form>
+				<div class="form_img">
+					<img src="https://play-lh.googleusercontent.com/8eMGVsNwGYiAJnMkdmTPX-Gz93uWtueUyGP1pDK7winQoMqzwQ6fsONz3LkUXuZQ5-o" >
+				</div>
+			
+		</div>
+ 
+			<footer class="footer">
+				<p class="c1" > <strong>Realizado por:  </strong>Bairon Martin    
+				<p class="c1" > <strong> Codigo:  </strong>1010117306 </p>
+			
+			</footer>
+		<script src="javaScript.js"></script>
+ 
+		</body>
+		
+
+</html>
