@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+	<head>
+	    <link rel ="icon" href="http://cdn.onlinewebfonts.com/svg/img_550901.png">
+	    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel ="stylesheet" tipe ="text/class" href="normalize.css" >
+		<link rel ="stylesheet" tipe ="text/class" href="estilos.css" >
+		<link rel ="preconnect" href="https://fonts.gstatic.com">
+		<title>Inventario</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		
+	</head>
+	<Body>
+		<header>
+		
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<a class="navbar-brand" href="#">Computer Store</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="Utilidades.html">Utilidades</a></li>
+						<li class="nav-item"><a class="nav-link" href="Inventario.html">Inventario</a></li>    
+						<li class="nav-item"><a class="nav-link" href="Administrador.html">Administrador</a></li>  
+					</ul>
+				</div>  
+			</nav>
+		
+		</header>
+		
+		  <div class="clase1">
+		<ul class="nav nav-tabs" ">
+		
+			<li class="nav-item"><a class="nav-link active" href="Inventario.html">Ingresar Producto</a></li>
+			<li class="nav-item"><a class="nav-link active" href="actualizar_ producto.html">Actualizar Producto</a></li>
+			<li class="nav-item"><a class="nav-link active" href="eliminar_producto.html">Eliminar Producto</a></li>
+			<li class="nav-item"><a class="nav-link active" href="consultar_producto.html">Consultar  Producto</a></li>
+		</ul>
+		</div>
+		
+		
+				
+		<h1 class="titulo1">Actualizar Producto</h1>
+		
+			
+		
+		<div  class="contenedor_flex">
+
+			<form name="f4" action="Inventario.html" method="POST" class="form">
+	
+				<div class="form_seleccion">
+				<label class="label1">código de producto </label>
+					<input type="number" required class="form-input" placeholder="ingrese el código de producto" >
+				</div>
+		
+				<div class="form_seleccion">
+				<label class="label1">nombre de producto </label>
+			 		<input type="text" required class="form-input" placeholder="ingrese el nombre de producto" >
+				</div>
+	
+	
+				<div class="form_seleccion">
+				<label class="label1">marca del producto </label>
+					<input type="text" required class="form-input" placeholder="ingrese la marca del producto" >
+				</div>
+				
+				<div class="form_seleccion">
+				<label class="label1">precio de compra </label>
+					<input type="number" required class="form-input" placeholder="ingrese el precio de compra" >
+				</div>
+				
+				<div class="form_seleccion">
+				<label class="label1">cantidad comprada </label>
+					<input type="number" required class="form-input" placeholder="ingrese la cantidad comprada" >
+				</div>
+				
+			
+				<div class="form_seleccion">
+					<input type="button"  name="" VALUE="MODIFICAR PRODUCTO" class="form-button"></input>
+				</div>
+
+							
+
+	
+			</form>
+				<div class="form_img">
+					<img src="https://image.flaticon.com/icons/png/512/276/276348.png" >
+				</div>
+		</div>
+			
+</div>
+ 
+			<footer class="footer">
+				<p class="c1" > <strong>Realizado por:  </strong>Bairon Martin    
+				<p class="c1" > <strong> Codigo:  </strong>1010117306 </p>
+			
+			</footer>
+	</Body>
+
+</html>
